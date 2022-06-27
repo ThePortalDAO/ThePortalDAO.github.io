@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Portal</title>
+
+  
+    <link class="googlefont" href="
+    https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i
+    " rel="stylesheet">
+
+  
+  <style type="text/css" style="display:block">
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-weight: inherit;
+  }
+
+  body {
+    background: #0a0a0a;
+    color: #f6f2f7;
+    width: 100%;
+  }
+
+
+  /* PAGE */
+  .text {
+    font-family:"Space Mono", monospace;
+        display: none;
+    opacity: 0;
+    font-size: 3.8vw;
+    line-height: 3.8vw;
+            font-variant-ligatures: normal;
+    visibility: hidden;
+  }
+
+  h1 {
+    font: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+  }
+
+  .text p, h1 {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+    animation: fadein .2s forwards ease-out;
+    padding: 1.52vw 10vw 2.28vw 3vw;
+  }
+
+  .text a {
+    text-decoration: underline;
+    text-decoration-skip: ink;
+    color: inherit;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    margin-left: -.5vw;
+    margin-right: -.5vw;
+    cursor: pointer;
+  }
+
+  .text a:hover {
+    text-decoration: none;
+  }
+
+  .text a:focus {
+    text-decoration: none;
+    outline: solid 4px rgba(0,0,0,.4);
+  }
+
+    ::selection {
+    background: #000;
+    background: rgba(0,0,0,.99);
+    color: #fff;
+  }
+  
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+      margin-top: 1.5vw;
+    }
+
+    100% {
+      opacity: 1;
+      margin-top: 0;
+    }
+  }
+  </style>
+
+</head>
+<body style="display:none;">
+  <div class="text">
+    <h1 style="animation-delay: .1s;">*PORTAL</h1>
+                              <p style="animation-delay: 0.2s;">Building the most expansive public good ever with Portal, a web3 native browser and your personal home on the internet.</p>
+                                <p style="animation-delay: 0.3s;">THE DAO*</p>
+                                <p style="animation-delay: 0.4s;"><a target="_blank" href="https://twitter.com/theportaldao">🡥Twitter</a></p>
+                                <p style="animation-delay: 0.5s;"><a target="_blank" href="https://mirror.xyz/0xb49B9CB4c7147d5F72c1C26C0998a10B9809aA8E/crowdfunds/0xa9071aFa27e4374D83b3AE67c041Adb8aE34DA28">🡥Mirror</a></p>
+                                <p style="animation-delay: 0.6s;">🡥Discord (Coming Soon)</p>
+                                                                                                                                                                  </div>
+
+  <!-- DON’T REMOVE THE FOLLOWING TWO LINES! -->
+  <script type="text/javascript">const fs = 3.8;</script>
+  <script type="text/javascript" src="https://temper.one/temper.js"></script>
+
+</body>
+</html>
